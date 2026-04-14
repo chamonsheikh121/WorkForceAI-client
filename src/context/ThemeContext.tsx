@@ -15,8 +15,8 @@ export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) =
     if (saved === 'light' || saved === 'dark') {
       return saved;
     }
-    // Default to light mode
-    return 'light';
+    // Default to dark mode
+    return 'dark';
   });
 
   useEffect(() => {
